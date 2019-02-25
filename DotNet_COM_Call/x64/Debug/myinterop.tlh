@@ -1,0 +1,66 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.16.27027.1 (ebfe79ff).
+//
+// c:\users\koly8\source\repos\dllc#c++\secondtime\dotnet_com_call\dotnet_com_call\dotnet_com_call\x64\debug\myinterop.tlh
+//
+// C++ source equivalent of type library MyInterop.tlb
+// compiler-generated file created 02/26/19 at 01:13:16 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace MyInterop {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("f5c53a46-651f-3665-b8fd-1e1006299ac1"))
+/* LIBID */ __MyInterop;
+struct __declspec(uuid("8e78371f-dedf-4aba-8229-5d2ab44e8c31"))
+/* dual interface */ IMyDotNetInterface;
+struct /* coclass */ MyDotNetClass;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IMyDotNetInterface, __uuidof(IMyDotNetInterface));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("8e78371f-dedf-4aba-8229-5d2ab44e8c31"))
+IMyDotNetInterface : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall ShowCOMDialog ( ) = 0;
+      virtual HRESULT __stdcall ComeToMe (
+        /*[in]*/ BSTR str,
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("1b51e581-63cc-433e-b212-ac017c41197a"))
+MyDotNetClass;
+    // interface _Object
+    // [ default ] interface IMyDotNetInterface
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_MyInterop =
+    {0xf5c53a46,0x651f,0x3665,{0xb8,0xfd,0x1e,0x10,0x06,0x29,0x9a,0xc1}};
+extern "C" const GUID __declspec(selectany) IID_IMyDotNetInterface =
+    {0x8e78371f,0xdedf,0x4aba,{0x82,0x29,0x5d,0x2a,0xb4,0x4e,0x8c,0x31}};
+extern "C" const GUID __declspec(selectany) CLSID_MyDotNetClass =
+    {0x1b51e581,0x63cc,0x433e,{0xb2,0x12,0xac,0x01,0x7c,0x41,0x19,0x7a}};
+
+} // namespace MyInterop
+
+#pragma pack(pop)

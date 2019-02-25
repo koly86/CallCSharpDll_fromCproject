@@ -1,0 +1,8 @@
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\bin\Debug\MyInterop.dll.config
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\bin\Debug\MyInterop.dll
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\bin\Debug\MyInterop.pdb
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\bin\Debug\MyInterop.tlb
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\obj\Debug\MyInterop.csprojAssemblyReference.cache
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\obj\Debug\MyInterop.csproj.CoreCompileInputs.cache
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\obj\Debug\MyInterop.dll
+C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\MyInterop\obj\Debug\MyInterop.pdb

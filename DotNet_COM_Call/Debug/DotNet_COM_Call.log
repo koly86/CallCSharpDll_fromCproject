@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  DotNet_COM_Call.cpp
+c:\users\koly8\source\repos\dllc#c++\secondtime\dotnet_com_call\dotnet_com_call\dotnet_com_call\dotnet_com_call.cpp(27): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'BSTR *'
+c:\users\koly8\source\repos\dllc#c++\secondtime\dotnet_com_call\dotnet_com_call\dotnet_com_call\dotnet_com_call.cpp(18): warning C4101: 'str': unreferenced local variable
+  DotNet_COM_Call.vcxproj -> C:\Users\koly8\source\repos\DLLC#C++\SecondTime\MyInterop\Debug\DotNet_COM_Call.exe
